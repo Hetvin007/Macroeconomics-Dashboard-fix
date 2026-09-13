@@ -1,0 +1,11 @@
+version: '1.2'
+features:
+  event_driven_engine: true
+  release_calendar: true
+  revision_detection: true
+  run_log: true
+  daily_intelligence: true
+methodology:
+  surprise: 'actual - consensus; percentage uses absolute consensus denominator'
+  consensus_policy: 'never fabricate; only user/provider supplied values are used'
+  revision_policy: 'store changed observation values as revision events when prior snapshot is available'

@@ -1,0 +1,14 @@
+provider: FRED
+api_docs: https://fred.stlouisfed.org/docs/api/fred/
+requires_api_key: true
+series:
+  - {id: us_fed_funds, fred_id: DFF, name: Effective Federal Funds Rate, unit: '%', category: Rates}
+  - {id: us_2y, fred_id: DGS2, name: US Treasury 2Y, unit: '%', category: Yield Curve}
+  - {id: us_5y, fred_id: DGS5, name: US Treasury 5Y, unit: '%', category: Yield Curve}
+  - {id: us_10y, fred_id: DGS10, name: US Treasury 10Y, unit: '%', category: Yield Curve}
+  - {id: us_30y, fred_id: DGS30, name: US Treasury 30Y, unit: '%', category: Yield Curve}
+  - {id: us_cpi, fred_id: CPIAUCSL, name: US CPI Index, unit: index, category: Inflation}
+  - {id: us_real_gdp_growth, fred_id: A191RL1Q225SBEA, name: US Real GDP Growth, unit: '% SAAR', category: Growth}
+  - {id: us_unemployment, fred_id: UNRATE, name: US Unemployment Rate, unit: '%', category: Labour}
+  - {id: us_dollar_index, fred_id: DTWEXBGS, name: Nominal Broad U.S. Dollar Index, unit: index, category: FX}
+  - {id: us_sp500, fred_id: SP500, name: S&P 500, unit: index, category: Equity}

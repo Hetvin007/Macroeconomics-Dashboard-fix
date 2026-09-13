@@ -1,0 +1,7 @@
+world_bank:
+  - {id: gdp_growth, code: NY.GDP.MKTP.KD.ZG, name: GDP growth, unit: '%', category: Growth}
+  - {id: inflation_cpi, code: FP.CPI.TOTL.ZG, name: CPI inflation, unit: '%', category: Inflation}
+  - {id: unemployment, code: SL.UEM.TOTL.ZS, name: Unemployment, unit: '%', category: Labour}
+imf:
+  - {id: gdp_growth_imf, code: NGDP_RPCH, name: Real GDP growth, unit: '%', category: Growth}
+  - {id: inflation_imf, code: PCPIPCH, name: CPI inflation, unit: '%', category: Inflation}

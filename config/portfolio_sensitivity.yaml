@@ -1,0 +1,15 @@
+method: "Directional macro sensitivity matrix; not a return forecast."
+factors:
+  - growth
+  - inflation
+  - rates
+  - fx
+  - liquidity
+  - risk_off
+assets:
+  - Indian Equities
+  - Indian Government Bonds
+  - US Equities
+  - US Treasuries
+  - Gold
+  - USD

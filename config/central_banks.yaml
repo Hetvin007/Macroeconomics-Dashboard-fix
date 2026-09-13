@@ -1,0 +1,6 @@
+central_banks:
+  - {name: RBI, country: India, policy_rate: Repo Rate, official: https://www.rbi.org.in/}
+  - {name: Federal Reserve, country: United States, policy_rate: Federal Funds Rate, official: https://www.federalreserve.gov/}
+  - {name: ECB, country: Euro Area, policy_rate: Deposit Facility Rate, official: https://www.ecb.europa.eu/}
+  - {name: Bank of England, country: United Kingdom, policy_rate: Bank Rate, official: https://www.bankofengland.co.uk/}
+  - {name: Bank of Japan, country: Japan, policy_rate: Policy Rate, official: https://www.boj.or.jp/en/}

@@ -1,0 +1,9 @@
+sources:
+  - {name: RBI DBIE, type: Official, region: India, url: https://data.rbi.org.in/, status: validated-portal}
+  - {name: RBI Statistics, type: Official, region: India, url: https://www.rbi.org.in/Scripts/Statistics.aspx, status: official}
+  - {name: World Bank WDI, type: Official/International, region: Global, url: https://data.worldbank.org/, status: API}
+  - {name: IMF DataMapper, type: Official/International, region: Global, url: https://www.imf.org/en/Publications/WEO/weo-database, status: API}
+  - {name: MoSPI, type: Official, region: India, url: https://www.mospi.gov.in/, status: official}
+  - {name: BLS, type: Official, region: United States, url: https://www.bls.gov/, status: official}
+  - {name: Federal Reserve, type: Official, region: United States, url: https://www.federalreserve.gov/, status: official}
+  - {name: ECB, type: Official, region: Euro Area, url: https://www.ecb.europa.eu/, status: official}

@@ -1,0 +1,11 @@
+# Release calendar is deliberately expectation-free. Add consensus only when a
+# licensed/free source is available; the app labels consensus as user-supplied.
+releases:
+  - {country: India, event: CPI inflation, frequency: Monthly, source: MoSPI, source_url: https://www.mospi.gov.in/}
+  - {country: India, event: IIP, frequency: Monthly, source: MoSPI, source_url: https://www.mospi.gov.in/}
+  - {country: India, event: WPI inflation, frequency: Monthly, source: DPIIT, source_url: https://eaindustry.nic.in/}
+  - {country: India, event: RBI monetary policy, frequency: Scheduled, source: RBI, source_url: https://www.rbi.org.in/}
+  - {country: United States, event: CPI inflation, frequency: Monthly, source: BLS, source_url: https://www.bls.gov/}
+  - {country: United States, event: Employment Situation, frequency: Monthly, source: BLS, source_url: https://www.bls.gov/}
+  - {country: United States, event: FOMC decision, frequency: Scheduled, source: Federal Reserve, source_url: https://www.federalreserve.gov/}
+  - {country: Euro Area, event: HICP inflation, frequency: Monthly, source: Eurostat, source_url: https://ec.europa.eu/eurostat/}

@@ -1,0 +1,15 @@
+india_rbi:
+  portal: https://data.rbi.org.in/
+  statistics: https://www.rbi.org.in/Scripts/Statistics.aspx
+  indicators:
+    - {id: rbi_repo, name: Repo Rate, unit: '%', category: Policy, url: '', format: csv}
+    - {id: rbi_sdf, name: Standing Deposit Facility, unit: '%', category: Policy, url: '', format: csv}
+    - {id: rbi_msf, name: Marginal Standing Facility, unit: '%', category: Policy, url: '', format: csv}
+    - {id: rbi_crr, name: Cash Reserve Ratio, unit: '%', category: Liquidity, url: '', format: csv}
+    - {id: rbi_slr, name: Statutory Liquidity Ratio, unit: '%', category: Liquidity, url: '', format: csv}
+    - {id: rbi_fx_reserves, name: Foreign Exchange Reserves, unit: USD mn, category: External, url: '', format: csv}
+    - {id: rbi_reserve_money, name: Reserve Money, unit: INR mn, category: Money, url: '', format: csv}
+    - {id: rbi_money_supply, name: Money Supply, unit: INR mn, category: Money, url: '', format: csv}
+    - {id: rbi_bank_credit, name: Bank Credit, unit: INR mn, category: Banking, url: '', format: csv}
+    - {id: rbi_bank_deposits, name: Bank Deposits, unit: INR mn, category: Banking, url: '', format: csv}
+    - {id: rbi_usdinr, name: USD/INR Reference Rate, unit: INR/USD, category: FX, url: '', format: csv}
